@@ -1,0 +1,30 @@
+For this Homework 1 assignment, I did not use any code directly copied and pasted from any source that was not already
+mentioned in the josemataHomework1.go file.
+
+However, knowledge, tips, and other useful information about Go was obtained from the following sources, among others:
+
+Learning Go, 2nd Edition, Jon Bodner, Published by O'Reilly Media, Inc.
+Powerpoint presentations and notes from the COMP510 lectures.
+Module Naming Conventions: https://www.reddit.com/r/golang/comments/rowff0/module_naming_conventions/
+Package names: https://go.dev/blog/package-names
+Learn GO Fast: Full Tutorial: https://www.youtube.com/watch?v=8uiZC0l4Ajw&t=2043s
+Getting Started with GoLand 1/3: Setup: https://www.youtube.com/watch?v=AufkDPEI2qA&t=154s
+Several videos of the playlist titled "Go Tutorial (Golang) for Beginners": https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM
+Go String Format: https://zetcode.com/golang/string-format/
+Slices in Golang: https://www.geeksforgeeks.org/slices-in-golang/
+How to Split a String in Golang?: https://www.geeksforgeeks.org/how-to-split-a-string-in-golang/
+How to Take Input from the User in Golang?: https://www.geeksforgeeks.org/how-to-take-input-from-the-user-in-golang/
+fmt.Scanln() Function in Golang With Examples: https://www.geeksforgeeks.org/fmt-scanln-function-in-golang-with-examples/
+Os: https://pkg.go.dev/os
+Go by Example: Reading Files: https://gobyexample.com/reading-files
+Splitting a String into a Slice in Golang: https://medium.com/bootdotdev/splitting-a-string-into-a-slice-in-golang-f179e72e0c84#:~:text=Split%20by%20whitespace%20and%20newlines,it%20from%20the%20final%20result.
+How To Use Golang Split String Effectively: https://marketsplash.com/tutorials/go/golang-split-string/
+Regexp tutorial and cheat sheet: https://yourbasic.org/golang/regexp-cheat-sheet/
+Regular Expression Basics for Go Programmers: https://www.youtube.com/watch?v=nDiFzmGFjS8
+Wrap text found with Regexp in Go: https://www.youtube.com/watch?v=62dl2TxGQYw
+Regular Expressions - Beginner Friendly Golang: https://www.youtube.com/watch?v=jLoUCfv2od8
+regexp: https://pkg.go.dev/regexp#Compile
+strings.Join() Function in Golang With Examples: https://www.geeksforgeeks.org/strings-join-function-in-golang-with-examples/
+strings.Fields() Function in Golang With Examples: https://www.geeksforgeeks.org/strings-fields-function-in-golang-with-examples/
+Golang Tutorial #15 - Maps: https://www.youtube.com/watch?v=yJE2RC37BF4
+
