@@ -18,21 +18,22 @@ func main() {
 	fmt.Scanln(&nameoffile)
 	fmt.Println("The name of the file is:", nameoffile)
 	/*
-		The following two lines of code open up the .txt file and store the contents of the file into a string called content, so it is no longer handled as byte data.
+		The following three lines of code open up the .txt file and store the contents of the file into a string called str, so it is no longer handled as byte data.
 		The if statement on Line 25 checks for errors when opening the .txt file.
 	*/
 	content, err := os.ReadFile(nameoffile) //This line of code was taken from the code used in our in-class Go program created during the lecture on January 29, 2024 and modified to be used in this program.
 	if err != nil {
 		log.Fatal("Help file error", err)
-	} //This line of code was taken from the code used in our in-class Go program created during the lecture on January 29, 2024 and modified to be used in this program.
+	} //This line of code was taken from the code used in our in-class Go program created during the lecture on January 29, 2024.
 	str := string(content)
 	/*
-		The following five lines of code were taken from the instructions of this assignment and modified to be used in this program.
+		The following three lines of code were taken from the instructions of this assignment and modified to be used in this program.
+		Dr. Santore helped me by explaining what these three lines of code do.
 	*/
 	reg, err := regexp.Compile("[^a-zA-Z0-9]+") //This line creates a regular expression that matches anything that isn't a lower case letter, a capital letter, or a number.
 	if err != nil {                             //This if statement checks for errors when create the regular expression
 		log.Fatal(err)
-	}
+	} //This line checks for errors in the creation of the regular expression.
 	processedString := reg.ReplaceAllString(str, " ") /*This line goes through the str string and replaces anything
 	that matches the reg regular expression with a space and stores the new string in the string called processedString.*/
 	/*
@@ -45,7 +46,7 @@ func main() {
 
 func countWords(sliceofwords []string) {
 	wordmap := make(map[string]int)      //create an empty map called wordmap
-	for _, value := range sliceofwords { //for each word in the sliceofwords slice
+	for _, value := range sliceofwords { //for each word in the slice called sliceofwords
 		wordmap[value]++ /*increase by one the count of each word (increase the value of the key by one).
 		The keys of the map will be automatically created if there isn't one made for the word yet and will start with a value of 0.*/
 	}
